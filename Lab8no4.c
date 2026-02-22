@@ -7,10 +7,10 @@ int main() {
     int points_array[4];
     
     char exam_papers[4][10] = {
-        {'A','B','A','C','C','D','E','E','A','D'}, //7
-        {'D','B','A','B','C','A','E','E','A','D'}, //6
-        {'C','B','A','E','D','C','E','E','A','D'}, //4
-        {'A','B','D','C','C','D','E','E','A','D'}  //8
+        {'A','B','A','C','C','D','E','E','A','D'},
+        {'D','B','A','B','C','A','E','E','A','D'},
+        {'C','B','A','E','D','C','E','E','A','D'},
+        {'A','B','D','C','C','D','E','E','A','D'}
     };
 
     for(int index = 0; index < 4; index++) {
@@ -44,3 +44,4 @@ void sort_top_three(int* arr_ptr) {
     int idx = 0, temp_val;
     
     while(idx < 3) {
+
